@@ -18,10 +18,13 @@ const InputSearch = ({ setSearchLocation }) => {
                 <button className='search-bar__btn flex'><i className='bx bx-search search-bar_icon'></i></button>
             </form>
 
-            <div className="icon-floating flex">
-                <a href="#inf-location"><i className='bx bx-down-arrow-alt icon-floating-icon'></i></a>
-                
+            <div className="icon-animation flex">
+                <div className="icon-floating flex">
+                    <a href="#inf-location"><i className='bx bx-down-arrow-alt icon-floating-icon'></i></a>
+
+                </div>
             </div>
+
 
         </header>
     )
